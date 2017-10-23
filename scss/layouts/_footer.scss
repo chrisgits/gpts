@@ -1,16 +1,37 @@
-//Footer
-/*footer {
-  @include display(flex);
-  @include justify-content(space-between);
+footer {
+  display: flex;
+  flex: 1 0 auto;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   width: 100%;
-
-  &.dark {
-    background: rgba(0,0,0,1);  
-  }
+  // background: #717171;
+  padding: 2em 0px;
 }
-*/
-//Footer Buttons
-footer .btn {  
-  @include flex(0 0 auto);
-  color: $red; 
+
+.footer-col {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-basis: 25%;
+  font-size: .6em;
+  padding: 1em;
+  color: white;
+  // background: white;
+  text-transform: uppercase;
+}
+
+.footer-col h4 {
+  font-size: 1.2em;
+}
+
+.footer-col ul {
+  padding-left: 1em;
+}
+
+.footer-col li {
+  list-style: none;
+}
+
+.footer-col p {
+  line-height: 1em;
+  margin-bottom: .3em;
 }

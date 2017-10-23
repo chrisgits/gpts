@@ -1,0 +1,22 @@
+//legal div -- sticky to bottom
+.legal {
+  background: $legalbg;
+  display: block;
+  width: 100%;
+  height: auto;
+  color: $legalcpy;
+  font-size: .7em;
+  padding: .5em;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.built {
+  font-size: .6em;
+}
+
+.built a {
+  color: rgb(215, 105, 0);
+
+}

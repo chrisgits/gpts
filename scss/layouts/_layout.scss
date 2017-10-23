@@ -1,3 +1,24 @@
+//Layout scss
+html, body {
+	height: 100%;
+}
+
 body {
-	background: red;
+	display: flex; //sets entire body as flex element
+	flex-direction: column; //sets as column to 'push' footer,etc down
+}
+
+.header {
+//	flex: 1 0 auto; //uses flex from parent element to fill
+}
+
+.content {
+	flex: 1 0 auto; //uses flex from parent element to fill (push footer to bottom)
+}
+
+.sectdiv {
+	display: block;
+	width: 100%;
+	height: 1em;
+	background: $sectbrdr;
 }

@@ -1,7 +1,28 @@
 {
-"version": 3,
-"mappings": "AAEA,IAAK,CACJ,UAAU,CAAE,GAAG,CCGhB,uBAAuB,CACvB,uBAAuB,CACvB,uBAAuB",
-"sources": ["../scss/_custom.scss","../scss/styles.scss"],
-"names": [],
-"file": "styles.css"
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss",
+		"../scss/vendor/__vendor-dir.scss",
+		"../scss/abstracts/__abstracts-dir.scss",
+		"../scss/abstracts/_fonts.scss",
+		"../scss/abstracts/_mixins.scss",
+		"../scss/abstracts/_variables.scss",
+		"../scss/base/__base-dir.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_typography.scss",
+		"../scss/components/__components-dir.scss",
+		"../scss/components/_button.scss",
+		"../scss/components/_input.scss",
+		"../scss/components/_modal.scss",
+		"../scss/layouts/__layouts-dir.scss",
+		"../scss/layouts/_nav.scss",
+		"../scss/layouts/_header.scss",
+		"../scss/layouts/_layout.scss",
+		"../scss/layouts/_footer.scss",
+		"../scss/layouts/_legal.scss",
+		"../scss/_custom.scss"
+	],
+	"names": [],
+	"mappings": "ACAA;;EAEE;ACFF;;;EAGE;AEHF,kBAAkB;AEAlB;;;EAGE;ACHF,kBAAkB;ACAlB,kBAAkB;ACAlB;;;EAGE;ACFF,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,KAAK;EACd,KAAK,ELAD,OAAO;EKCX,YAAY,EAAE,WAAW,GAM1B;EATD,AAKE,IALE,AAKF,SAAU,EALZ,AAME,IANE,AAMF,SAAU,CAAC;IACT,cAAc,EAAE,IAAI,GACrB;;AAIH,AAAA,IAAI,AAAA,IAAI,CAAC;EACP,KAAK,ELVA,OAAO,GKWb;;ACfD,kBAAkB;ACAlB,kBAAkB;ACAlB;;;EAGE;ACHF,kBAAkB;AEClB,AAAA,IAAI,EAAE,AAAA,IAAI,CAAC;EACV,MAAM,EAAE,IAAI,GACZ;;AAED,AAAA,IAAI,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM,GACtB;;AAMD,AAAA,QAAQ,CAAC;EACR,IAAI,EAAE,QAAQ,GACd;;AAED,AAAA,QAAQ,CAAC;EACR,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;EACX,UAAU,EXbA,OAAO,GWcjB;;ACvBD,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,IAAI;EACb,IAAI,EAAE,QAAQ;EACd,SAAS,EAAE,UAAU;EACrB,eAAe,EAAE,YAAY;EAC7B,KAAK,EAAE,IAAI;EAEX,OAAO,EAAE,OAAO,GACjB;;AAED,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,aAAa;EACxB,UAAU,EAAE,GAAG;EACf,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,GAAG;EACZ,KAAK,EAAE,KAAK;EAEZ,cAAc,EAAE,SAAS,GAC1B;;AAED,AAAY,WAAD,CAAC,EAAE,CAAC;EACb,SAAS,EAAE,KAAK,GACjB;;AAED,AAAY,WAAD,CAAC,EAAE,CAAC;EACb,YAAY,EAAE,GAAG,GAClB;;AAED,AAAY,WAAD,CAAC,EAAE,CAAC;EACb,UAAU,EAAE,IAAI,GACjB;;AAED,AAAY,WAAD,CAAC,CAAC,CAAC;EACZ,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,IAAI,GACpB;;ACnCD,AAAA,MAAM,CAAC;EACL,UAAU,EbIF,OAAO;EaHf,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,KAAK,EbCI,OAAO;EaAhB,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,MAAM,GACvB;;AAED,AAAA,MAAM,CAAC;EACL,SAAS,EAAE,IAAI,GAChB;;AAED,AAAO,MAAD,CAAC,CAAC,CAAC;EACP,KAAK,EAAE,OAAgB,GAExB;;ACrBD,kBAAkB;AAElB,AAAA,IAAI,CAAC;EACJ,UAAU,EdCJ,OAAO;EcAb,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,4BAA4B,GACzC"
 }
